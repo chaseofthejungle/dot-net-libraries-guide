@@ -15,3 +15,10 @@
   + **Autofac:** Provides extra dependency management features, multi-interface support, and more flexibility than the built-in DI framework of ASP.NET Core.
   + **Microsoft.Extensions.DependencyInjection:** The DI framework that is built into/bundled with ASP.NET Core.
   + **Scrutor:** Allows for simplification of dependency registration without requiring a new DI container (from the native ASP.NET Core technology).
+* *Hyper Text Transfer Protocol (HTTP)*
+  + **Polly:** An HTTP request transient fault handling and resilience library.
+  + **Refit:** An easy to use alternative to the HttpClient HTTP request class that does not require boilerplate code.
+  + **RestSharp:** Another easy to use alternative to HttpClient that can consume REST APIs, but does not offer as much flexibility and support as Refit. 
+* *Logging*
+  + **NLog:** A free, flexible, and simpler logging solution that supports multiple .NET platforms.
+  + **Serilog:** An easy to set up diagnostic logging library that also supports various .NET platforms. Offers structured logging.
