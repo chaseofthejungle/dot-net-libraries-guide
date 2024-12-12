@@ -30,3 +30,11 @@
   + **ClosedXML:**  A library for creating and modifying Excel files without needing Excel natively installed.
   + **EPPlus:** A library for working with different Excel objects (e.g., images, charts, tables, pivot tables) and functionalities (e.g., conditional formatting, data validation).
   + **Excel-DNA:** Integrates .NET functionality into Excel and allows for the installation, updating, and deployment of Excel add-ins.
+* *Object-Relational Mapping (ORM)*
+  + **Dapper:** Allows for fast database interactions and relies on SQL for easy database integrations.
+  + **EF Core:** Reduces need for boilerplate code and supports LINQ interactions with various SQL database platforms. More complex and with a heavier learning curve than Dapper.
+* *Testing*
+  + **Bogus:** Instantly creates fake data for testing .NET apps.
+  + **FluentAssertions:** Used for creating simple, efficient, and self-documented unit tests.
+  + **Moq:** A testing library that can simulate objects for unit testing purposes.
+  + **Testcontainers:** Instantly generates easily discardable containers for unit testing.
