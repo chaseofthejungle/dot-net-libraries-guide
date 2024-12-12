@@ -22,3 +22,11 @@
 * *Logging*
   + **NLog:** A free, flexible, and simpler logging solution that supports multiple .NET platforms.
   + **Serilog:** An easy to set up diagnostic logging library that also supports various .NET platforms. Offers structured logging.
+* *Message Queues*
+  + **MassTransit:** Enables simplified message routing over several service busses, such as ActiveMQ, Azure Service Bus, and RabbitMQ.
+  + **NServiceBus:** Supplements message queue workflow with an abstraction layer and by guaranteeing message receipt and processing.
+  + **RabbitMQ.Client:** Supports RabbitMQ message brokering for distributed systems.
+* *Microsoft Excel*
+  + **ClosedXML:**  A library for creating and modifying Excel files without needing Excel natively installed.
+  + **EPPlus:** A library for working with different Excel objects (e.g., images, charts, tables, pivot tables) and functionalities (e.g., conditional formatting, data validation).
+  + **Excel-DNA:** Integrates .NET functionality into Excel and allows for the installation, updating, and deployment of Excel add-ins.
