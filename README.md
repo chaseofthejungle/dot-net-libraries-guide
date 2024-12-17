@@ -38,3 +38,5 @@
   + **FluentAssertions:** Used for creating simple, efficient, and self-documented unit tests.
   + **Moq:** A testing library that can simulate objects for unit testing purposes.
   + **Testcontainers:** Instantly generates easily discardable containers for unit testing.
+
+TODO: Add section on how a library is developed.
