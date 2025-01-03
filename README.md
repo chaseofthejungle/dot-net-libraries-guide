@@ -16,16 +16,16 @@
   + [**Microsoft.Extensions.DependencyInjection:**](https://www.nuget.org/packages/microsoft.extensions.dependencyinjection) The DI framework that is built into/bundled with ASP.NET Core.
   + [**Scrutor:**](https://github.com/khellang/Scrutor) Allows for simplification of dependency registration without requiring a new DI container (from the native ASP.NET Core technology).
 * **Hyper Text Transfer Protocol (HTTP)**
-  + **Polly:** An HTTP request transient fault handling and resilience library.
-  + **Refit:** An easy to use alternative to the HttpClient HTTP request class that does not require boilerplate code.
-  + **RestSharp:** Another easy to use alternative to HttpClient that can consume REST APIs, but does not offer as much flexibility and support as Refit. 
+  + [**Polly:**](https://www.pollydocs.org/) An HTTP request transient fault handling and resilience library.
+  + [**Refit:**](https://github.com/reactiveui/refit) An easy to use alternative to the HttpClient HTTP request class that does not require boilerplate code.
+  + [**RestSharp:**](https://restsharp.dev/) Another easy to use alternative to HttpClient that can consume REST APIs, but does not offer as much flexibility and support as Refit. 
 * **Logging**
-  + **NLog:** A free, flexible, and simpler logging solution that supports multiple .NET platforms.
-  + **Serilog:** An easy to set up diagnostic logging library that also supports various .NET platforms. Offers structured logging.
+  + [**NLog:**](https://nlog-project.org/) A free, flexible, and simpler logging solution that supports multiple .NET platforms.
+  + [**Serilog:**](https://serilog.net/) An easy to set up diagnostic logging library that also supports various .NET platforms. Offers structured logging.
 * **Message Queues**
-  + **MassTransit:** Enables simplified message routing over several service busses, such as ActiveMQ, Azure Service Bus, and RabbitMQ.
-  + **NServiceBus:** Supplements message queue workflow with an abstraction layer and by guaranteeing message receipt and processing.
-  + **RabbitMQ.Client:** Supports RabbitMQ message brokering for distributed systems.
+  + [**MassTransit:**](https://masstransit.io/) Enables simplified message routing over several service busses, such as ActiveMQ, Azure Service Bus, and RabbitMQ.
+  + [**NServiceBus:**](https://particular.net/nservicebus) Supplements message queue workflow with an abstraction layer and by guaranteeing message receipt and processing.
+  + [**RabbitMQ.Client:**](https://www.rabbitmq.com/client-libraries/dotnet) Supports RabbitMQ message brokering for distributed systems.
 * **Microsoft Excel**
   + **ClosedXML:**  A library for creating and modifying Excel files without needing Excel natively installed.
   + **EPPlus:** A library for working with different Excel objects (e.g., images, charts, tables, pivot tables) and functionalities (e.g., conditional formatting, data validation).
