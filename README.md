@@ -27,16 +27,16 @@
   + [**NServiceBus:**](https://particular.net/nservicebus) Supplements message queue workflow with an abstraction layer and by guaranteeing message receipt and processing.
   + [**RabbitMQ.Client:**](https://www.rabbitmq.com/client-libraries/dotnet) Supports RabbitMQ message brokering for distributed systems.
 * **Microsoft Excel**
-  + **ClosedXML:**  A library for creating and modifying Excel files without needing Excel natively installed.
-  + **EPPlus:** A library for working with different Excel objects (e.g., images, charts, tables, pivot tables) and functionalities (e.g., conditional formatting, data validation).
-  + **Excel-DNA:** Integrates .NET functionality into Excel and allows for the installation, updating, and deployment of Excel add-ins.
+  + [**ClosedXML:**](https://docs.closedxml.io/en/latest/)  A library for creating and modifying Excel files without needing Excel natively installed.
+  + [**EPPlus:**](https://www.epplussoftware.com/) A library for working with different Excel objects (e.g., images, charts, tables, pivot tables) and functionalities (e.g., conditional formatting, data validation).
+  + [**Excel-DNA:**](https://excel-dna.net/) Integrates .NET functionality into Excel and allows for the installation, updating, and deployment of Excel add-ins.
 * **Object-Relational Mapping (ORM)**
-  + **Dapper:** Allows for fast database interactions and relies on SQL for easy database integrations.
-  + **EF Core:** Reduces need for boilerplate code and supports LINQ interactions with various SQL database platforms. More complex and with a heavier learning curve than Dapper.
+  + [**Dapper:**](https://www.learndapper.com/) Allows for fast database interactions and relies on SQL for easy database integrations.
+  + [**EF Core:**](https://learn.microsoft.com/en-us/ef/core/) Reduces need for boilerplate code and supports LINQ interactions with various SQL database platforms. More complex and with a heavier learning curve than Dapper.
 * **Testing**
-  + **Bogus:** Instantly creates fake data for testing .NET apps.
-  + **FluentAssertions:** Used for creating simple, efficient, and self-documented unit tests.
-  + **Moq:** A testing library that can simulate objects for unit testing purposes.
-  + **Testcontainers:** Instantly generates easily discardable containers for unit testing.
+  + [**Bogus:**](https://github.com/bchavez/Bogus) Instantly creates fake data for testing .NET apps.
+  + [**FluentAssertions:**](https://fluentassertions.com/) Used for creating simple, efficient, and self-documented unit tests.
+  + [**Moq:**](https://github.com/devlooped/moq) A testing library that can simulate objects for unit testing purposes.
+  + [**Testcontainers:**](https://dotnet.testcontainers.org/) Instantly generates easily discardable containers for unit testing.
 
 TODO: Add section on how a library is developed.
