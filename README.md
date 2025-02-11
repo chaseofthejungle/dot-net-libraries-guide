@@ -39,4 +39,5 @@
   + [**Moq:**](https://github.com/devlooped/moq) A testing library that can simulate objects for unit testing purposes.
   + [**Testcontainers:**](https://dotnet.testcontainers.org/) Instantly generates easily discardable containers for unit testing.
 
-TODO: Add section on how a library is developed.
+TODO #1: Add section on how a library is developed.
+TODO #2: Number sections and add Table of Contents.
