@@ -83,5 +83,4 @@
   
 <hr />
   
-TODO #1: Add section on how a library is developed.  
-TODO #2: Number sections and add Table of Contents.
+TODO: Add section on how a library is developed.  
