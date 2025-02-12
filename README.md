@@ -1,43 +1,87 @@
 # .NET Libraries Guide (Listed by Category)
-* **API Flow**
+  
+#### Table of Contents
+1. [API Flow](#api-flow)
+2. [Authorization](#auth)
+3. [Background Tasks](#bg-tasks)
+4. [Dependency Injection (DI)](#di)
+5. [Hyper Text Transfer Protocol (HTTP)](#http)
+6. [Logging](#logging)
+7. [Message Queues](#msg-queues)
+8. [Microsoft Excel](#excel)
+9. [Object-Relational Mapping (ORM)](#orm)
+10. [Testing](#testing)
+  
+<hr />
+  
+## 1. <a name="api-flow">**API Flow**</a>
   + [**FluentValidation:**](https://docs.fluentvalidation.net/en/latest/) Enables developers to maintain strongly defined validation rules for objects, while maintaining code self-documentation.
   + [**MediatR:**](https://www.nuget.org/packages/mediatr/) Allows objects to communicate independently (as decoupled components) via a 'mediator'.
   + [**SignalR:**](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr) Promotes real-time 2-way communication for desktop, mobile, and web apps/assets.
   + [**YARP ('Yet Another Reverse Proxy'):**](https://microsoft.github.io/reverse-proxy/) Establishes reverse proxy servers.
-* **Authorization**
+  
+<hr />
+    
+## 2. <a name="auth">**Authorization**</a>
   + [**Keycloak:**](https://learn.microsoft.com/en-us/dotnet/aspire/authentication/keycloak-integration?tabs=dotnet-cli) An open-source tool for access and identity management.
   + [**Microsoft.AspNetCore.Authentication.JwtBearer:**](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.authentication.jwtbearer?view=aspnetcore-9.0) for handling secure JSON Web Token (JWT) authentication for web services and APIs. 
   + [**OpenIddict:**](https://documentation.openiddict.com/) Handles OAuth 2.0/OpenID Connect without dictating the user authorization process.
-* **Background Tasks**
+  
+<hr />
+  
+## 3. <a name="bg-tasks">**Background Tasks**</a>
   + [**Hangfire:**](https://www.hangfire.io/) Allows for the creation, management, and performance monitoring of background processes, along with some advanced customization features.
   + [**Quartz.NET:**](https://www.quartz-scheduler.net/) An easy to use and easy to learn process scheduling system.
-* **Dependency Injection (DI)**
+     
+<hr />
+  
+## 4. <a name="di">**Dependency Injection (DI)**</a>
   + [**Autofac:**](https://autofac.org/) Provides extra dependency management features, multi-interface support, and more flexibility than the built-in DI framework of ASP.NET Core.
   + [**Microsoft.Extensions.DependencyInjection:**](https://www.nuget.org/packages/microsoft.extensions.dependencyinjection) The DI framework that is built into/bundled with ASP.NET Core.
   + [**Scrutor:**](https://github.com/khellang/Scrutor) Allows for simplification of dependency registration without requiring a new DI container (from the native ASP.NET Core technology).
-* **Hyper Text Transfer Protocol (HTTP)**
+
+<hr />
+  
+## 5. <a name="http">**Hyper Text Transfer Protocol (HTTP)**</a>
   + [**Polly:**](https://www.pollydocs.org/) An HTTP request transient fault handling and resilience library.
   + [**Refit:**](https://github.com/reactiveui/refit) An easy to use alternative to the HttpClient HTTP request class that does not require boilerplate code.
-  + [**RestSharp:**](https://restsharp.dev/) Another easy to use alternative to HttpClient that can consume REST APIs, but does not offer as much flexibility and support as Refit. 
-* **Logging**
+  + [**RestSharp:**](https://restsharp.dev/) Another easy to use alternative to HttpClient that can consume REST APIs, but does not offer as much flexibility and support as Refit.
+
+<hr />
+  
+## 6. <a name="logging">**Logging**</a>
   + [**NLog:**](https://nlog-project.org/) A free, flexible, and simpler logging solution that supports multiple .NET platforms.
   + [**Serilog:**](https://serilog.net/) An easy to set up diagnostic logging library that also supports various .NET platforms. Offers structured logging.
-* **Message Queues**
+  
+<hr />
+  
+## 7. <a name="msg-queues">**Message Queues**</a>
   + [**MassTransit:**](https://masstransit.io/) Enables simplified message routing over several service busses, such as ActiveMQ, Azure Service Bus, and RabbitMQ.
   + [**NServiceBus:**](https://particular.net/nservicebus) Supplements message queue workflow with an abstraction layer and by guaranteeing message receipt and processing.
   + [**RabbitMQ.Client:**](https://www.rabbitmq.com/client-libraries/dotnet) Supports RabbitMQ message brokering for distributed systems.
-* **Microsoft Excel**
+  
+<hr />
+  
+## 8. <a name="excel">**Microsoft Excel**</a>
   + [**ClosedXML:**](https://docs.closedxml.io/en/latest/)  A library for creating and modifying Excel files without needing Excel natively installed.
   + [**EPPlus:**](https://www.epplussoftware.com/) A library for working with different Excel objects (e.g., images, charts, tables, pivot tables) and functionalities (e.g., conditional formatting, data validation).
   + [**Excel-DNA:**](https://excel-dna.net/) Integrates .NET functionality into Excel and allows for the installation, updating, and deployment of Excel add-ins.
-* **Object-Relational Mapping (ORM)**
+  
+<hr />
+  
+## 9. <a name="orm">**Object-Relational Mapping (ORM)**</a>
   + [**Dapper:**](https://www.learndapper.com/) Allows for fast database interactions and relies on SQL for easy database integrations.
   + [**EF Core:**](https://learn.microsoft.com/en-us/ef/core/) Reduces need for boilerplate code and supports LINQ interactions with various SQL database platforms. More complex and with a heavier learning curve than Dapper.
-* **Testing**
+  
+<hr />
+  
+## 10. <a name="testing">**Testing**</a>
   + [**Bogus:**](https://github.com/bchavez/Bogus) Instantly creates fake data for testing .NET apps.
   + [**FluentAssertions:**](https://fluentassertions.com/) Used for creating simple, efficient, and self-documented unit tests.
   + [**Moq:**](https://github.com/devlooped/moq) A testing library that can simulate objects for unit testing purposes.
   + [**Testcontainers:**](https://dotnet.testcontainers.org/) Instantly generates easily discardable containers for unit testing.
-
-TODO #1: Add section on how a library is developed.
+  
+<hr />
+  
+TODO #1: Add section on how a library is developed.  
 TODO #2: Number sections and add Table of Contents.
