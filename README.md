@@ -11,7 +11,7 @@
 8. [Microsoft Excel Libraries](#excel)
 9. [Object-Relational Mapping (ORM) Libraries](#orm)
 10. [Testing Libraries](#testing)
-11. [Supplemental Resource](#supplemental)
+11. [Supplemental Resources](#supplemental)
   
 <hr />
   
@@ -84,10 +84,7 @@
   
 <hr />
   
-## 11. <a name="supplemental">Supplemental Resource</a>
+## 11. <a name="supplemental">Supplemental Resources</a>
   
-* *[Official Microsoft .NET Page](https://dotnet.microsoft.com/en-us/)*
-  
-<hr />
-  
-TODO: Add section on how a library is developed.  
+* *[Official Microsoft .NET Page](https://dotnet.microsoft.com/en-us/)*  
+* *[Official Microsoft Guide on How to Create a .NET Class Library](https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio)*
