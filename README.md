@@ -88,3 +88,4 @@
   
 * *[Official Microsoft .NET Page](https://dotnet.microsoft.com/en-us/)*  
 * *[Official Microsoft Guide on How to Create a .NET Class Library](https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio)*
+* *[Back-end Web Development with .NET for Beginners (Official Microsoft Video Series)](https://learn.microsoft.com/en-us/shows/back-end-web-development-with-dotnet-for-beginners/)*
