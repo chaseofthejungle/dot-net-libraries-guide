@@ -81,6 +81,8 @@
   + [**FluentAssertions:**](https://fluentassertions.com/) Used for creating simple, efficient, and self-documented unit tests.
   + [**Moq:**](https://github.com/devlooped/moq) A testing library that can simulate objects for unit testing purposes.
   + [**Testcontainers:**](https://dotnet.testcontainers.org/) Instantly generates easily discardable containers for unit testing.
+  + [**Verify:**](https://github.com/VerifyTests/Verify) Serializes and stores test results, with future test results used to evaluate data integrity and if snapshots should be updated.
+  + [**xUnit.net:**](https://xunit.net/?tabs=cs) A unit-testing technology for the .NET framework, including support for C#, F#, and Visual Basic.
   
 <hr />
   
