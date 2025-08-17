@@ -25,6 +25,7 @@
     
 ## 2. <a name="auth">**Authorization Libraries**</a>
   + [**Keycloak:**](https://learn.microsoft.com/en-us/dotnet/aspire/authentication/keycloak-integration?tabs=dotnet-cli) An open-source tool for access and identity management.
+  + [**Microsoft.AspNetCore.Authentication.Identity:**](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-9.0&tabs=visual-studio) Provides user interface components and APIs for identification purposes (e.g., role-based authorization/RBAC, multi-factor authentication, external sign-ins, password management, signing up and in users).
   + [**Microsoft.AspNetCore.Authentication.JwtBearer:**](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.authentication.jwtbearer?view=aspnetcore-9.0) for handling secure JSON Web Token (JWT) authentication for web services and APIs. 
   + [**OpenIddict:**](https://documentation.openiddict.com/) Handles OAuth 2.0/OpenID Connect without dictating the user authorization process.
   
@@ -52,6 +53,7 @@
   
 ## 6. <a name="logging">**Logging Libraries**</a>
   + [**NLog:**](https://nlog-project.org/) A free, flexible, and simpler logging solution that supports multiple .NET platforms.
+  + [**OpenTelemetry:**](https://opentelemetry.io/) An open-source solution for gathering, processing, and exporting telemetry data (e.g., metrics, logs, traces) from apps and infrastructure.
   + [**Serilog:**](https://serilog.net/) An easy to set up diagnostic logging library that also supports various .NET platforms. Offers structured logging.
   
 <hr />
